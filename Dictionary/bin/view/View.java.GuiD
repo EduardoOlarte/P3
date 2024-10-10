@@ -1,0 +1,11 @@
+JFrame
+Title,String,untitled ( JFrame )
+Width,int,400
+Height,int,400
+Foreground,int,-13421773
+Background,int,-1118482
+Visible,boolean,true
+Resizable,boolean,true
+[END]
+[EOF]
+
