@@ -28,7 +28,7 @@ public class CalculatorThread implements Runnable {
 		totalPrimes.addAndGet(count);
 	}
 
-	public static boolean isPrime(int numero) {
+	public boolean isPrime(int numero) {
 		if (numero <= 1) {
 			return false;
 		}
