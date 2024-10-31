@@ -1,0 +1,805 @@
+{
+  "animals":
+    [
+      {
+        "name": "bee",
+        "gender": "f"
+      },
+      {
+        "name": "eagle",
+        "gender": "f"
+      },
+      {
+        "name": "scorpion",
+        "gender": "m"
+      },
+      {
+        "name": "moose",
+        "gender": "m"
+      },
+      {
+        "name": "clam",
+        "gender": "f"
+      },
+      {
+        "name": "duck",
+        "gender": "c"
+      },
+      {
+        "name": "eel",
+        "gender": "f"
+      },
+      {
+        "name": "antelope",
+        "gender": "m"
+      },
+      {
+        "name": "squirrel",
+        "gender": "f"
+      },
+      {
+        "name": "spider",
+        "gender": "f"
+      },
+      {
+        "name": "donkey",
+        "gender": "m"
+      },
+      {
+        "name": "ostrich",
+        "gender": "c"
+      },
+      {
+        "name": "wasp",
+        "gender": "f"
+      },
+      {
+        "name": "goshawk",
+        "gender": "c"
+      },
+      {
+        "name": "slug",
+        "gender": "f"
+      },
+      {
+        "name": "whale",
+        "gender": "f"
+      },
+      {
+        "name": "cockle",
+        "gender": "m"
+      },
+      {
+        "name": "sea bream",
+        "gender": "m"
+      },
+      {
+        "name": "bison",
+        "gender": "c"
+      },
+      {
+        "name": "boa",
+        "gender": "f"
+      },
+      {
+        "name": "ox",
+        "gender": "m"
+      },
+      {
+        "name": "owl",
+        "gender": "m"
+      },
+      {
+        "name": "vulture",
+        "gender": "m"
+      },
+      {
+        "name": "donkey",
+        "gender": "m"
+      },
+      {
+        "name": "horse",
+        "gender": "m"
+      },
+      {
+        "name": "goat",
+        "gender": "f"
+      },
+      {
+        "name": "squid",
+        "gender": "m"
+      },
+      {
+        "name": "snail",
+        "gender": "m"
+      },
+      {
+        "name": "chameleon",
+        "gender": "m"
+      },
+      {
+        "name": "camel",
+        "gender": "m"
+      },
+      {
+        "name": "crab",
+        "gender": "m"
+      },
+      {
+        "name": "pig",
+        "gender": "m"
+      },
+      {
+        "name": "chimpanzee",
+        "gender": "c"
+      },
+      {
+        "name": "deer",
+        "gender": "m"
+      },
+      {
+        "name": "centipede",
+        "gender": "m"
+      },
+      {
+        "name": "stork",
+        "gender": "f"
+      },
+      {
+        "name": "swan",
+        "gender": "m"
+      },
+      {
+        "name": "guinea pig",
+        "gender": "c"
+      },
+      {
+        "name": "crocodile",
+        "gender": "m"
+      },
+      {
+        "name": "weasel",
+        "gender": "f"
+      },
+      {
+        "name": "condor",
+        "gender": "c"
+      },
+      {
+        "name": "roe deer",
+        "gender": "m"
+      },
+      {
+        "name": "parrot",
+        "gender": "f"
+      },
+      {
+        "name": "coyote",
+        "gender": "c"
+      },
+      {
+        "name": "cockroach",
+        "gender": "f"
+      },
+      {
+        "name": "dolphin",
+        "gender": "m"
+      },
+      {
+        "name": "Tasmanian devil",
+        "gender": "m"
+      },
+      {
+        "name": "dingo",
+        "gender": "m"
+      },
+      {
+        "name": "dinosaur",
+        "gender": "m"
+      },
+      {
+        "name": "dodo",
+        "gender": "c"
+      },
+      {
+        "name": "Komodo dragon",
+        "gender": "m"
+      },
+      {
+        "name": "dromedary",
+        "gender": "m"
+      },
+      {
+        "name": "elephant",
+        "gender": "m"
+      },
+      {
+        "name": "emu",
+        "gender": "c"
+      },
+      {
+        "name": "hedgehog",
+        "gender": "m"
+      },
+      {
+        "name": "beetle",
+        "gender": "m"
+      },
+      {
+        "name": "scorpion",
+        "gender": "m"
+      },
+      {
+        "name": "starfish",
+        "gender": "f"
+      },
+      {
+        "name": "sturgeon",
+        "gender": "m"
+      },
+      {
+        "name": "pheasant",
+        "gender": "m"
+      },
+      {
+        "name": "flamenco",
+        "gender": "m"
+      },
+      {
+        "name": "seal",
+        "gender": "f"
+      },
+      {
+        "name": "puffin",
+        "gender": "m"
+      },
+      {
+        "name": "gazelle",
+        "gender": "f"
+      },
+      {
+        "name": "rooster",
+        "gender": "m"
+      },
+      {
+        "name": "hen",
+        "gender": "f"
+      },
+      {
+        "name": "goose",
+        "gender": "m"
+      },
+      {
+        "name": "tick",
+        "gender": "f"
+      },
+      {
+        "name": "cat",
+        "gender": "m"
+      },
+      {
+        "name": "gull",
+        "gender": "f"
+      },
+      {
+        "name": "swallow",
+        "gender": "f"
+      },
+      {
+        "name": "gorilla",
+        "gender": "c"
+      },
+      {
+        "name": "sparrow",
+        "gender": "m"
+      },
+      {
+        "name": "cricket",
+        "gender": "m"
+      },
+      {
+        "name": "cheetah",
+        "gender": "m"
+      },
+      {
+        "name": "worm",
+        "gender": "m"
+      },
+      {
+        "name": "falcon",
+        "gender": "m"
+      },
+      {
+        "name": "hamster",
+        "gender": "c"
+      },
+      {
+        "name": "hyena",
+        "gender": "f"
+      },
+      {
+        "name": "hippopotamus",
+        "gender": "m"
+      },
+      {
+        "name": "ant",
+        "gender": "f"
+      },
+      {
+        "name": "ferret",
+        "gender": "m"
+      },
+      {
+        "name": "ibex",
+        "gender": "c"
+      },
+      {
+        "name": "ibis",
+        "gender": "c"
+      },
+      {
+        "name": "iguana",
+        "gender": "f"
+      },
+      {
+        "name": "impala",
+        "gender": "c"
+      },
+      {
+        "name": "stick insect",
+        "gender": "m"
+      },
+      {
+        "name": "wild boar",
+        "gender": "m"
+      },
+      {
+        "name": "jaguar",
+        "gender": "c"
+      },
+      {
+        "name": "goldfinch",
+        "gender": "m"
+      },
+      {
+        "name": "civet cat",
+        "gender": "f"
+      },
+      {
+        "name": "giraffe",
+        "gender": "f"
+      },
+      {
+        "name": "kakapo",
+        "gender": "c"
+      },
+      {
+        "name": "kiwi",
+        "gender": "c"
+      },
+      {
+        "name": "koala",
+        "gender": "c"
+      },
+      {
+        "name": "krill",
+        "gender": "m"
+      },
+      {
+        "name": "lizard",
+        "gender": "m"
+      },
+      {
+        "name": "lizard",
+        "gender": "f"
+      },
+      {
+        "name": "lamprey",
+        "gender": "f"
+      },
+      {
+        "name": "lobster",
+        "gender": "f"
+      },
+      {
+        "name": "owl",
+        "gender": "f"
+      },
+      {
+        "name": "lion",
+        "gender": "m"
+      },
+      {
+        "name": "leopard",
+        "gender": "m"
+      },
+      {
+        "name": "dragonfly",
+        "gender": "f"
+      },
+      {
+        "name": "lynx",
+        "gender": "c"
+      },
+      {
+        "name": "wolf",
+        "gender": "m"
+      },
+      {
+        "name": "worm",
+        "gender": "f"
+      },
+      {
+        "name": "parrot",
+        "gender": "m"
+      },
+      {
+        "name": "sea bass",
+        "gender": "f"
+      },
+      {
+        "name": "mammoth",
+        "gender": "m"
+      },
+      {
+        "name": "raccoon",
+        "gender": "m"
+      },
+      {
+        "name": "butterfly",
+        "gender": "f"
+      },
+      {
+        "name": "ladybug",
+        "gender": "f"
+      },
+      {
+        "name": "mussel",
+        "gender": "m"
+      },
+      {
+        "name": "hake",
+        "gender": "f"
+      },
+      {
+        "name": "skunk",
+        "gender": "f"
+      },
+      {
+        "name": "monkey",
+        "gender": "m"
+      },
+      {
+        "name": "fly",
+        "gender": "f"
+      },
+      {
+        "name": "bat",
+        "gender": "m"
+      },
+      {
+        "name": "mule",
+        "gender": "f"
+      },
+      {
+        "name": "shrew",
+        "gender": "f"
+      },
+      {
+        "name": "narwhal",
+        "gender": "c"
+      },
+      {
+        "name": "razor",
+        "gender": "f"
+      },
+      {
+        "name": "crab",
+        "gender": "f"
+      },
+      {
+        "name": "steer",
+        "gender": "m"
+      },
+      {
+        "name": "otter",
+        "gender": "f"
+      },
+      {
+        "name": "rhea",
+        "gender": "m"
+      },
+      {
+        "name": "ñeque",
+        "gender": "m"
+      },
+      {
+        "name": "wildebeest",
+        "gender": "m"
+      },
+      {
+        "name": "goose",
+        "gender": "f"
+      },
+      {
+        "name": "ocelot",
+        "gender": "m"
+      },
+      {
+        "name": "okapi",
+        "gender": "c"
+      },
+      {
+        "name": "orangutan",
+        "gender": "m"
+      },
+      {
+        "name": "orca",
+        "gender": "f"
+      },
+      {
+        "name": "platypus",
+        "gender": "m"
+      },
+      {
+        "name": "bear",
+        "gender": "m"
+      },
+      {
+        "name": "oyster",
+        "gender": "f"
+      },
+      {
+        "name": "sheep",
+        "gender": "f"
+      },
+      {
+        "name": "dove",
+        "gender": "f"
+      },
+      {
+        "name": "panda",
+        "gender": "m"
+      },
+      {
+        "name": "pangolin",
+        "gender": "m"
+      },
+      {
+        "name": "panther",
+        "gender": "f"
+      },
+      {
+        "name": "duck",
+        "gender": "m"
+      },
+      {
+        "name": "turkey",
+        "gender": "m"
+      },
+      {
+        "name": "pelican",
+        "gender": "m"
+      },
+      {
+        "name": "barnacle",
+        "gender": "m"
+      },
+      {
+        "name": "lazy",
+        "gender": "m"
+      },
+      {
+        "name": "dog",
+        "gender": "m"
+      },
+      {
+        "name": "fish",
+        "gender": "m"
+      },
+      {
+        "name": "penguin",
+        "gender": "m"
+      },
+      {
+        "name": "louse",
+        "gender": "m"
+      },
+      {
+        "name": "pony",
+        "gender": "m"
+      },
+      {
+        "name": "colt",
+        "gender": "m"
+      },
+      {
+        "name": "porcupine",
+        "gender": "m"
+      },
+      {
+        "name": "octopus",
+        "gender": "m"
+      },
+      {
+        "name": "puma",
+        "gender": "m"
+      },
+      {
+        "name": "bearded vulture",
+        "gender": "m"
+      },
+      {
+        "name": "quetzal",
+        "gender": "m"
+      },
+      {
+        "name": "quokka",
+        "gender": "m"
+      },
+      {
+        "name": "frog",
+        "gender": "f"
+      },
+      {
+        "name": "rat",
+        "gender": "f"
+      },
+      {
+        "name": "mouse",
+        "gender": "m"
+      },
+      {
+        "name": "remora",
+        "gender": "r"
+      },
+      {
+        "name": "tadpole",
+        "gender": "m"
+      },
+      {
+        "name": "reno",
+        "gender": "m"
+      },
+      {
+        "name": "turbot",
+        "gender": "m"
+      },
+      {
+        "name": "nightingale",
+        "gender": "m"
+      },
+      {
+        "name": "salmon",
+        "gender": "m"
+      },
+      {
+        "name": "toad",
+        "gender": "m"
+      },
+      {
+        "name": "sardine",
+        "gender": "f"
+      },
+      {
+        "name": "salamander",
+        "gender": "f"
+      },
+      {
+        "name": "snake",
+        "gender": "f"
+      },
+      {
+        "name": "meerkat",
+        "gender": "m"
+      },
+      {
+        "name": "badger",
+        "gender": "m"
+      },
+      {
+        "name": "shark",
+        "gender": "m"
+      },
+      {
+        "name": "tiger",
+        "gender": "m"
+      },
+      {
+        "name": "mole",
+        "gender": "m"
+      },
+      {
+        "name": "bull",
+        "gender": "m"
+      },
+      {
+        "name": "turtledove",
+        "gender": "f"
+      },
+      {
+        "name": "turtle",
+        "gender": "f"
+      },
+      {
+        "name": "trout",
+        "gender": "f"
+      },
+      {
+        "name": "toucan",
+        "gender": "m"
+      },
+      {
+        "name": "uro",
+        "gender": "m"
+      },
+      {
+        "name": "grouse",
+        "gender": "m"
+      },
+      {
+        "name": "magpie",
+        "gender": "f"
+      },
+      {
+        "name": "cow",
+        "gender": "f"
+      },
+      {
+        "name": "deer",
+        "gender": "m"
+      },
+      {
+        "name": "swift",
+        "gender": "m"
+      },
+      {
+        "name": "viper",
+        "gender": "f"
+      },
+      {
+        "name": "scallop",
+        "gender": "f"
+      },
+      {
+        "name": "black widow",
+        "gender": "f"
+      },
+      {
+        "name": "wallaby",
+        "gender": "m"
+      },
+      {
+        "name": "wombat",
+        "gender": "m"
+      },
+      {
+        "name": "xarda",
+        "gender": "f"
+      },
+      {
+        "name": "yak",
+        "gender": "m"
+      },
+      {
+        "name": "mare",
+        "gender": "f"
+      },
+      {
+        "name": "drone",
+        "gender": "m"
+      },
+      {
+        "name": "opossum",
+        "gender": "f"
+      },
+      {
+        "name": "fox",
+        "gender": "m"
+      },
+      {
+        "name": "thrush",
+        "gender": "m"
+      }
+    ]
+}
