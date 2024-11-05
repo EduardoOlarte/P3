@@ -15,10 +15,10 @@ public class ControlClient {
 	private PrintWriter output;
 	private BufferedReader input;
 
-	public ControlClient(View view, String serverAddress, int port) {
+	public ControlClient(View view) {
 		this.view = view;
-		this.serverAddress = serverAddress;
-		this.port = port;
+		this.serverAddress = "127.0.0.1";
+		this.port = 5000;
 
 		view.setVisible(true);
 
@@ -33,10 +33,15 @@ public class ControlClient {
 		} catch (IOException e) {
 			e.printStackTrace();
 			view.showMessage("Error al conectar al servidor.");
+			ipAndPort();
+			connectToServer();
 		}
 	}
 
 	public void initController() {
+		ipAndPort();
+		connectToServer();
+
 		view.getTranslationButton().addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -127,6 +132,12 @@ public class ControlClient {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+	}
+
+	private void ipAndPort() {
+		serverAddress = view.showInputDialog("Ingrese la direccion ip del servidor", "Direccion ip");
+		String portInput = view.showInputDialog("Ingrese el puerto del servidor", "Puerto");
+		port = Integer.parseInt(portInput);
 	}
 
 }

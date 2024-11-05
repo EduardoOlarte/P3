@@ -5,10 +5,9 @@ import view.View;
 
 public class AppClient {
 	public static void main(String[] args) throws Exception {
-		View view = new View();
-		ControlClient controlClient = new ControlClient(view, "127.0.0.1", 5000);
-		controlClient.connectToServer();
-		controlClient.initController();
 
+		View view = new View();
+		ControlClient controlClient = new ControlClient(view);
+		controlClient.initController();
 	}
 }

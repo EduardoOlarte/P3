@@ -19,7 +19,7 @@ public class View extends JFrame {
 
 	public View() {
 		setBackground(new Color(192, 192, 192));
-		setIconImage(Toolkit.getDefaultToolkit().getImage("Data/icono.JPEG"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("Data/icono.png"));
 		setTitle("Dicc");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 225, 470);
@@ -133,6 +133,24 @@ public class View extends JFrame {
 
 	public void showMessage(String message) {
 		JOptionPane.showMessageDialog(this, message);
+	}
+
+	public String showInputDialog(String message, String ipOrPort) {
+		String input;
+		do {
+			input = JOptionPane.showInputDialog(null, message, ipOrPort, JOptionPane.QUESTION_MESSAGE);
+
+			if (input == null) {
+				return null;
+			}
+
+			if (input.trim().isEmpty()) {
+				JOptionPane.showMessageDialog(null, "El campo no puede estar vacío. Por favor, ingrese un valor.",
+						"Error", JOptionPane.ERROR_MESSAGE);
+			}
+		} while (input.trim().isEmpty());
+
+		return input;
 	}
 
 	public void showTranslation(String translation) {

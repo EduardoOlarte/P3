@@ -12,7 +12,7 @@ public class ControlServer {
 
 	public ControlServer(Dictionary dictionary, int port) throws Exception {
 		this.dictionary = dictionary;
-		String[] files = { "src/diccionarios/en.json", "src/diccionarios/es.json", "src/diccionarios/fr.json" };
+		String[] files = { "Data/diccionarios/en.json", "Data/diccionarios/es.json", "Data/diccionarios/fr.json" };
 		dictionary.loadData(files);
 
 		serverSocket = new ServerSocket(port);
